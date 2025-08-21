@@ -17,7 +17,9 @@ while True:
 			continue_option = input('DO YOU WANT TO CONTINUE? (y/n): ').lower()
 			if continue_option == 'y':
 				continue
-			else:
+			elif continue_option == 'n':
 				break
+			else:
+				print('INVALID OPTION!\nTRY AGAIN:')
 		else:
 			print('YOU LOOSE!😥')
